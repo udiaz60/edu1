@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Django static and media files
+/staticfiles/
+/media/
+
+# Django migrations (optional, see nota)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+# Puedes ignorar los migrations iniciales si estás empezando:
+# */migrations/*.py
+
+# Database
+*.sqlite3
+*.db
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS / Linux / Windows
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+.env.*
+
+# Logs
+*.log
+
+# Coverage / testing
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+.nox/
+.pytest_cache/
+.junit.xml
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pip dependency files (lock)
+Pipfile.lock
+poetry.lock
+
+# Gunicorn socket / pid files
+*.pid
+*.sock
